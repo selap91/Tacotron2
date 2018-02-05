@@ -1,0 +1,997 @@
+
+-----------------------------------------------------------------
+Starting new training run
+-----------------------------------------------------------------
+[2018-02-05 21:18:54.346]  Checkpoint path: /Users/nottoday/PycharmProjects/tacotronII/logs-Tacotron2/model.ckpt
+[2018-02-05 21:18:54.346]  Loading training data from: /Users/nottoday/PycharmProjects/tacotronII/training/train.txt
+[2018-02-05 21:18:54.346]  Using model: Tacotron2
+[2018-02-05 21:18:54.346]  Hyperparameters:
+  adam_beta1: 0.9
+  adam_beta2: 0.999
+  adam_epsilon: 1e-05
+  attention_size: 128
+  batch_size: 8
+  char_embed_size: 512
+  cleaners: english_cleaners
+  dec_prenet_sizes: [256, 256]
+  dec_rnn_size: 1024
+  decay_rate: 0.96
+  decay_start: 50000
+  drop_prob: 0.5
+  enc_3conv_sizes: [512, 512, 512]
+  enc_rnn_size: 512
+  final_lr: 0.0001
+  frame_length_ms: 50
+  frame_shift_ms: 12.5
+  initial_lr: 0.01
+  min_level_db: -100
+  num_freq: 1025
+  num_mels: 80
+  outputs_per_step: 1
+  parameter_init: 0.5
+  preemphasis: 0.97
+  ref_level_db: 20
+  reg_weight: 1e-05
+  sample_rate: 20000
+  use_cmudict: False
+  use_decay: True
+  zoneout_prob: 0.1
+[2018-02-05 21:18:54.366]  Loaded metadata for 13100 examples (23.94 hours)
+
+-----------------------------------------------------------------
+Starting new training run
+-----------------------------------------------------------------
+[2018-02-05 21:26:13.172]  Checkpoint path: /Users/nottoday/PycharmProjects/tacotronII/logs-Tacotron2/model.ckpt
+[2018-02-05 21:26:13.172]  Loading training data from: /Users/nottoday/PycharmProjects/tacotronII/training/train.txt
+[2018-02-05 21:26:13.172]  Using model: Tacotron2
+[2018-02-05 21:26:13.172]  Hyperparameters:
+  adam_beta1: 0.9
+  adam_beta2: 0.999
+  adam_epsilon: 1e-05
+  attention_size: 128
+  batch_size: 8
+  char_embed_size: 512
+  cleaners: english_cleaners
+  dec_prenet_sizes: [256, 256]
+  dec_rnn_size: 1024
+  decay_rate: 0.96
+  decay_start: 50000
+  drop_prob: 0.5
+  enc_3conv_sizes: [512, 512, 512]
+  enc_rnn_size: 512
+  final_lr: 0.0001
+  frame_length_ms: 50
+  frame_shift_ms: 12.5
+  initial_lr: 0.01
+  min_level_db: -100
+  num_freq: 1025
+  num_mels: 80
+  outputs_per_step: 1
+  parameter_init: 0.5
+  preemphasis: 0.97
+  ref_level_db: 20
+  reg_weight: 1e-05
+  sample_rate: 20000
+  use_cmudict: False
+  use_decay: True
+  zoneout_prob: 0.1
+[2018-02-05 21:26:13.196]  Loaded metadata for 13100 examples (23.94 hours)
+
+-----------------------------------------------------------------
+Starting new training run
+-----------------------------------------------------------------
+[2018-02-05 21:31:41.099]  Checkpoint path: /Users/nottoday/PycharmProjects/tacotronII/logs-Tacotron2/model.ckpt
+[2018-02-05 21:31:41.099]  Loading training data from: /Users/nottoday/PycharmProjects/tacotronII/training/train.txt
+[2018-02-05 21:31:41.099]  Using model: Tacotron2
+[2018-02-05 21:31:41.099]  Hyperparameters:
+  adam_beta1: 0.9
+  adam_beta2: 0.999
+  adam_epsilon: 1e-05
+  attention_size: 128
+  batch_size: 8
+  char_embed_size: 512
+  cleaners: english_cleaners
+  dec_prenet_sizes: [256, 256]
+  dec_rnn_size: 1024
+  decay_rate: 0.96
+  decay_start: 50000
+  drop_prob: 0.5
+  enc_3conv_sizes: [512, 512, 512]
+  enc_rnn_size: 512
+  final_lr: 0.0001
+  frame_length_ms: 50
+  frame_shift_ms: 12.5
+  initial_lr: 0.01
+  min_level_db: -100
+  num_freq: 1025
+  num_mels: 80
+  outputs_per_step: 1
+  parameter_init: 0.5
+  preemphasis: 0.97
+  ref_level_db: 20
+  reg_weight: 1e-05
+  sample_rate: 20000
+  use_cmudict: False
+  use_decay: True
+  zoneout_prob: 0.1
+[2018-02-05 21:31:41.126]  Loaded metadata for 13100 examples (23.94 hours)
+
+-----------------------------------------------------------------
+Starting new training run
+-----------------------------------------------------------------
+[2018-02-05 21:32:17.222]  Checkpoint path: /Users/nottoday/PycharmProjects/tacotronII/logs-Tacotron2/model.ckpt
+[2018-02-05 21:32:17.222]  Loading training data from: /Users/nottoday/PycharmProjects/tacotronII/training/train.txt
+[2018-02-05 21:32:17.222]  Using model: Tacotron2
+[2018-02-05 21:32:17.223]  Hyperparameters:
+  adam_beta1: 0.9
+  adam_beta2: 0.999
+  adam_epsilon: 1e-05
+  attention_size: 128
+  batch_size: 8
+  char_embed_size: 512
+  cleaners: english_cleaners
+  dec_prenet_sizes: [256, 256]
+  dec_rnn_size: 1024
+  decay_rate: 0.96
+  decay_start: 50000
+  drop_prob: 0.5
+  enc_3conv_sizes: [512, 512, 512]
+  enc_rnn_size: 512
+  final_lr: 0.0001
+  frame_length_ms: 50
+  frame_shift_ms: 12.5
+  initial_lr: 0.01
+  min_level_db: -100
+  num_freq: 1025
+  num_mels: 80
+  outputs_per_step: 1
+  parameter_init: 0.5
+  preemphasis: 0.97
+  ref_level_db: 20
+  reg_weight: 1e-05
+  sample_rate: 20000
+  use_cmudict: False
+  use_decay: True
+  zoneout_prob: 0.1
+[2018-02-05 21:32:17.243]  Loaded metadata for 13100 examples (23.94 hours)
+
+-----------------------------------------------------------------
+Starting new training run
+-----------------------------------------------------------------
+[2018-02-05 21:33:07.011]  Checkpoint path: /Users/nottoday/PycharmProjects/tacotronII/logs-Tacotron2/model.ckpt
+[2018-02-05 21:33:07.011]  Loading training data from: /Users/nottoday/PycharmProjects/tacotronII/training/train.txt
+[2018-02-05 21:33:07.011]  Using model: Tacotron2
+[2018-02-05 21:33:07.011]  Hyperparameters:
+  adam_beta1: 0.9
+  adam_beta2: 0.999
+  adam_epsilon: 1e-05
+  attention_size: 128
+  batch_size: 8
+  char_embed_size: 512
+  cleaners: english_cleaners
+  dec_prenet_sizes: [256, 256]
+  dec_rnn_size: 1024
+  decay_rate: 0.96
+  decay_start: 50000
+  drop_prob: 0.5
+  enc_3conv_sizes: [512, 512, 512]
+  enc_rnn_size: 512
+  final_lr: 0.0001
+  frame_length_ms: 50
+  frame_shift_ms: 12.5
+  initial_lr: 0.01
+  min_level_db: -100
+  num_freq: 1025
+  num_mels: 80
+  outputs_per_step: 1
+  parameter_init: 0.5
+  preemphasis: 0.97
+  ref_level_db: 20
+  reg_weight: 1e-05
+  sample_rate: 20000
+  use_cmudict: False
+  use_decay: True
+  zoneout_prob: 0.1
+[2018-02-05 21:33:07.032]  Loaded metadata for 13100 examples (23.94 hours)
+
+-----------------------------------------------------------------
+Starting new training run
+-----------------------------------------------------------------
+[2018-02-05 21:33:39.165]  Checkpoint path: /Users/nottoday/PycharmProjects/tacotronII/logs-Tacotron2/model.ckpt
+[2018-02-05 21:33:39.165]  Loading training data from: /Users/nottoday/PycharmProjects/tacotronII/training/train.txt
+[2018-02-05 21:33:39.165]  Using model: Tacotron2
+[2018-02-05 21:33:39.165]  Hyperparameters:
+  adam_beta1: 0.9
+  adam_beta2: 0.999
+  adam_epsilon: 1e-05
+  attention_size: 128
+  batch_size: 8
+  char_embed_size: 512
+  cleaners: english_cleaners
+  dec_prenet_sizes: [256, 256]
+  dec_rnn_size: 1024
+  decay_rate: 0.96
+  decay_start: 50000
+  drop_prob: 0.5
+  enc_3conv_sizes: [512, 512, 512]
+  enc_rnn_size: 512
+  final_lr: 0.0001
+  frame_length_ms: 50
+  frame_shift_ms: 12.5
+  initial_lr: 0.01
+  min_level_db: -100
+  num_freq: 1025
+  num_mels: 80
+  outputs_per_step: 1
+  parameter_init: 0.5
+  preemphasis: 0.97
+  ref_level_db: 20
+  reg_weight: 1e-05
+  sample_rate: 20000
+  use_cmudict: False
+  use_decay: True
+  zoneout_prob: 0.1
+[2018-02-05 21:33:39.188]  Loaded metadata for 13100 examples (23.94 hours)
+
+-----------------------------------------------------------------
+Starting new training run
+-----------------------------------------------------------------
+[2018-02-05 21:36:15.410]  Checkpoint path: /Users/nottoday/PycharmProjects/tacotronII/logs-Tacotron2/model.ckpt
+[2018-02-05 21:36:15.410]  Loading training data from: /Users/nottoday/PycharmProjects/tacotronII/training/train.txt
+[2018-02-05 21:36:15.410]  Using model: Tacotron2
+[2018-02-05 21:36:15.410]  Hyperparameters:
+  adam_beta1: 0.9
+  adam_beta2: 0.999
+  adam_epsilon: 1e-05
+  attention_size: 128
+  batch_size: 8
+  char_embed_size: 512
+  cleaners: english_cleaners
+  dec_prenet_sizes: [256, 256]
+  dec_rnn_size: 1024
+  decay_rate: 0.96
+  decay_start: 50000
+  drop_prob: 0.5
+  enc_3conv_sizes: [512, 512, 512]
+  enc_rnn_size: 512
+  final_lr: 0.0001
+  frame_length_ms: 50
+  frame_shift_ms: 12.5
+  initial_lr: 0.01
+  min_level_db: -100
+  num_freq: 1025
+  num_mels: 80
+  outputs_per_step: 1
+  parameter_init: 0.5
+  preemphasis: 0.97
+  ref_level_db: 20
+  reg_weight: 1e-05
+  sample_rate: 20000
+  use_cmudict: False
+  use_decay: True
+  zoneout_prob: 0.1
+[2018-02-05 21:36:15.426]  Loaded metadata for 13100 examples (23.94 hours)
+
+-----------------------------------------------------------------
+Starting new training run
+-----------------------------------------------------------------
+[2018-02-05 21:37:46.260]  Checkpoint path: /Users/nottoday/PycharmProjects/tacotronII/logs-Tacotron2/model.ckpt
+[2018-02-05 21:37:46.260]  Loading training data from: /Users/nottoday/PycharmProjects/tacotronII/training/train.txt
+[2018-02-05 21:37:46.260]  Using model: Tacotron2
+[2018-02-05 21:37:46.260]  Hyperparameters:
+  adam_beta1: 0.9
+  adam_beta2: 0.999
+  adam_epsilon: 1e-05
+  attention_size: 128
+  batch_size: 8
+  char_embed_size: 512
+  cleaners: english_cleaners
+  dec_prenet_sizes: [256, 256]
+  dec_rnn_size: 1024
+  decay_rate: 0.96
+  decay_start: 50000
+  drop_prob: 0.5
+  enc_3conv_sizes: [512, 512, 512]
+  enc_rnn_size: 512
+  final_lr: 0.0001
+  frame_length_ms: 50
+  frame_shift_ms: 12.5
+  initial_lr: 0.01
+  min_level_db: -100
+  num_freq: 1025
+  num_mels: 80
+  outputs_per_step: 1
+  parameter_init: 0.5
+  preemphasis: 0.97
+  ref_level_db: 20
+  reg_weight: 1e-05
+  sample_rate: 20000
+  use_cmudict: False
+  use_decay: True
+  zoneout_prob: 0.1
+[2018-02-05 21:37:46.277]  Loaded metadata for 13100 examples (23.94 hours)
+
+-----------------------------------------------------------------
+Starting new training run
+-----------------------------------------------------------------
+[2018-02-05 21:40:58.919]  Checkpoint path: /Users/nottoday/PycharmProjects/tacotronII/logs-Tacotron2/model.ckpt
+[2018-02-05 21:40:58.919]  Loading training data from: /Users/nottoday/PycharmProjects/tacotronII/training/train.txt
+[2018-02-05 21:40:58.919]  Using model: Tacotron2
+[2018-02-05 21:40:58.919]  Hyperparameters:
+  adam_beta1: 0.9
+  adam_beta2: 0.999
+  adam_epsilon: 1e-05
+  attention_size: 128
+  batch_size: 8
+  char_embed_size: 512
+  cleaners: english_cleaners
+  dec_prenet_sizes: [256, 256]
+  dec_rnn_size: 1024
+  decay_rate: 0.96
+  decay_start: 50000
+  drop_prob: 0.5
+  enc_3conv_sizes: [512, 512, 512]
+  enc_rnn_size: 512
+  final_lr: 0.0001
+  frame_length_ms: 50
+  frame_shift_ms: 12.5
+  initial_lr: 0.01
+  min_level_db: -100
+  num_freq: 1025
+  num_mels: 80
+  outputs_per_step: 1
+  parameter_init: 0.5
+  preemphasis: 0.97
+  ref_level_db: 20
+  reg_weight: 1e-05
+  sample_rate: 20000
+  use_cmudict: False
+  use_decay: True
+  zoneout_prob: 0.1
+[2018-02-05 21:40:58.935]  Loaded metadata for 13100 examples (23.94 hours)
+[2018-02-05 21:41:00.495]  Initialized Tacotron2 model. Dimensions: 
+[2018-02-05 21:41:00.495]    embedding:                  512
+[2018-02-05 21:41:00.495]    encoder out:                512
+[2018-02-05 21:41:00.495]    pre-net wrapped cell out:   80
+[2018-02-05 21:41:00.495]    attention wrapped cell out: 512
+[2018-02-05 21:41:00.495]    decoder out (1 frame):      80
+[2018-02-05 21:41:18.316]  No model to load at /Users/nottoday/PycharmProjects/tacotronII/logs-Tacotron2/pretrained/
+[2018-02-05 21:41:18.689]  
+Generated 32 batches of size 8 in 0.373 sec
+[2018-02-05 21:41:19.689]  Exiting due to exception: ConcatOp : Dimensions of inputs should match: shape[0] = [8,256] vs. shape[1] = [87,512]
+	 [[Node: model/inference/decoder/while/BasicDecoderStep/decoder/MyAttentionWrapper_AttentionWrapper/MyAttentionWrapper_AttentionWrapper/tacotron_decoder_wrapper/concat = ConcatV2[N=2, T=DT_FLOAT, Tidx=DT_INT32, _device="/job:localhost/replica:0/task:0/device:CPU:0"](model/inference/decoder/while/BasicDecoderStep/decoder/MyAttentionWrapper_AttentionWrapper/MyAttentionWrapper_AttentionWrapper/tacotron_decoder_wrapper/decoder_prenet_layer/dec_FC_2/Relu, model/inference/decoder/while/Switch_7:1, model/inference/decoder/while/BasicDecoderStep/decoder/MyAttentionWrapper_AttentionWrapper/MyAttentionWrapper_AttentionWrapper/tacotron_decoder_wrapper/concat/axis)]]
+
+Caused by op 'model/inference/decoder/while/BasicDecoderStep/decoder/MyAttentionWrapper_AttentionWrapper/MyAttentionWrapper_AttentionWrapper/tacotron_decoder_wrapper/concat', defined at:
+  File "/Users/nottoday/PycharmProjects/tacotronII/train.py", line 169, in <module>
+    main()
+  File "/Users/nottoday/PycharmProjects/tacotronII/train.py", line 166, in main
+    train(log_dir, args)
+  File "/Users/nottoday/PycharmProjects/tacotronII/train.py", line 59, in train
+    model.initialize(feeder.inputs, feeder.input_lengths, feeder.mel_targets, style=True)
+  File "/Users/nottoday/PycharmProjects/tacotronII/models/tacotron2.py", line 79, in initialize
+    impute_finished=True)
+  File "/Users/nottoday/PycharmProjects/tacotronII/models/dynamic_decoder.py", line 207, in dynamic_decode
+    swap_memory=swap_memory)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/ops/control_flow_ops.py", line 2816, in while_loop
+    result = loop_context.BuildLoop(cond, body, loop_vars, shape_invariants)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/ops/control_flow_ops.py", line 2640, in BuildLoop
+    pred, body, original_loop_vars, loop_vars, shape_invariants)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/ops/control_flow_ops.py", line 2590, in _BuildLoop
+    body_result = body(*packed_vars_for_body)
+  File "/Users/nottoday/PycharmProjects/tacotronII/models/dynamic_decoder.py", line 157, in body
+    decoder_finished, stop_error) = decoder.step(time, inputs, state, error)
+  File "/Users/nottoday/PycharmProjects/tacotronII/models/custom_decoder.py", line 114, in step
+    cell_outputs, cell_state, LSTM_output = self._cell(inputs, state)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/ops/rnn_cell_impl.py", line 183, in __call__
+    return super(RNNCell, self).__call__(inputs, state)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/layers/base.py", line 575, in __call__
+    outputs = self.call(inputs, *args, **kwargs)
+  File "/Users/nottoday/PycharmProjects/tacotronII/models/LocationSensitiveAttention.py", line 202, in call
+    cell_output, LSTM_output, next_cell_state = self.cell(inputs, state)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/ops/rnn_cell_impl.py", line 183, in __call__
+    return super(RNNCell, self).__call__(inputs, state)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/layers/base.py", line 575, in __call__
+    outputs = self.call(inputs, *args, **kwargs)
+  File "/Users/nottoday/PycharmProjects/tacotronII/models/rnn_wrappers.py", line 41, in call
+    concat_output_prenet = tf.concat([prenet_outputs, context_vector], axis=-1)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/ops/array_ops.py", line 1099, in concat
+    return gen_array_ops._concat_v2(values=values, axis=axis, name=name)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/ops/gen_array_ops.py", line 706, in _concat_v2
+    "ConcatV2", values=values, axis=axis, name=name)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 2956, in create_op
+    op_def=op_def)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1470, in __init__
+    self._traceback = self._graph._extract_stack()  # pylint: disable=protected-access
+
+InvalidArgumentError (see above for traceback): ConcatOp : Dimensions of inputs should match: shape[0] = [8,256] vs. shape[1] = [87,512]
+	 [[Node: model/inference/decoder/while/BasicDecoderStep/decoder/MyAttentionWrapper_AttentionWrapper/MyAttentionWrapper_AttentionWrapper/tacotron_decoder_wrapper/concat = ConcatV2[N=2, T=DT_FLOAT, Tidx=DT_INT32, _device="/job:localhost/replica:0/task:0/device:CPU:0"](model/inference/decoder/while/BasicDecoderStep/decoder/MyAttentionWrapper_AttentionWrapper/MyAttentionWrapper_AttentionWrapper/tacotron_decoder_wrapper/decoder_prenet_layer/dec_FC_2/Relu, model/inference/decoder/while/Switch_7:1, model/inference/decoder/while/BasicDecoderStep/decoder/MyAttentionWrapper_AttentionWrapper/MyAttentionWrapper_AttentionWrapper/tacotron_decoder_wrapper/concat/axis)]]
+
+
+-----------------------------------------------------------------
+Starting new training run
+-----------------------------------------------------------------
+[2018-02-05 21:50:42.766]  Checkpoint path: /Users/nottoday/PycharmProjects/tacotronII/logs-Tacotron2/model.ckpt
+[2018-02-05 21:50:42.766]  Loading training data from: /Users/nottoday/PycharmProjects/tacotronII/training/train.txt
+[2018-02-05 21:50:42.766]  Using model: Tacotron2
+[2018-02-05 21:50:42.766]  Hyperparameters:
+  adam_beta1: 0.9
+  adam_beta2: 0.999
+  adam_epsilon: 1e-05
+  attention_size: 128
+  batch_size: 8
+  char_embed_size: 512
+  cleaners: english_cleaners
+  dec_prenet_sizes: [256, 256]
+  dec_rnn_size: 1024
+  decay_rate: 0.96
+  decay_start: 50000
+  drop_prob: 0.5
+  enc_3conv_sizes: [512, 512, 512]
+  enc_rnn_size: 512
+  final_lr: 0.0001
+  frame_length_ms: 50
+  frame_shift_ms: 12.5
+  initial_lr: 0.01
+  min_level_db: -100
+  num_freq: 1025
+  num_mels: 80
+  outputs_per_step: 1
+  parameter_init: 0.5
+  preemphasis: 0.97
+  ref_level_db: 20
+  reg_weight: 1e-05
+  sample_rate: 20000
+  use_cmudict: False
+  use_decay: True
+  zoneout_prob: 0.1
+[2018-02-05 21:50:42.789]  Loaded metadata for 13100 examples (23.94 hours)
+
+-----------------------------------------------------------------
+Starting new training run
+-----------------------------------------------------------------
+[2018-02-05 21:51:10.091]  Checkpoint path: /Users/nottoday/PycharmProjects/tacotronII/logs-Tacotron2/model.ckpt
+[2018-02-05 21:51:10.091]  Loading training data from: /Users/nottoday/PycharmProjects/tacotronII/training/train.txt
+[2018-02-05 21:51:10.091]  Using model: Tacotron2
+[2018-02-05 21:51:10.091]  Hyperparameters:
+  adam_beta1: 0.9
+  adam_beta2: 0.999
+  adam_epsilon: 1e-05
+  attention_size: 128
+  batch_size: 8
+  char_embed_size: 512
+  cleaners: english_cleaners
+  dec_prenet_sizes: [256, 256]
+  dec_rnn_size: 1024
+  decay_rate: 0.96
+  decay_start: 50000
+  drop_prob: 0.5
+  enc_3conv_sizes: [512, 512, 512]
+  enc_rnn_size: 512
+  final_lr: 0.0001
+  frame_length_ms: 50
+  frame_shift_ms: 12.5
+  initial_lr: 0.01
+  min_level_db: -100
+  num_freq: 1025
+  num_mels: 80
+  outputs_per_step: 1
+  parameter_init: 0.5
+  preemphasis: 0.97
+  ref_level_db: 20
+  reg_weight: 1e-05
+  sample_rate: 20000
+  use_cmudict: False
+  use_decay: True
+  zoneout_prob: 0.1
+[2018-02-05 21:51:10.111]  Loaded metadata for 13100 examples (23.94 hours)
+[2018-02-05 21:51:11.778]  Initialized Tacotron2 model. Dimensions: 
+[2018-02-05 21:51:11.778]    embedding:                  512
+[2018-02-05 21:51:11.778]    encoder out:                512
+[2018-02-05 21:51:11.778]    pre-net wrapped cell out:   80
+[2018-02-05 21:51:11.778]    attention wrapped cell out: 512
+[2018-02-05 21:51:11.778]    decoder out (1 frame):      80
+[2018-02-05 21:51:31.087]  No model to load at /Users/nottoday/PycharmProjects/tacotronII/logs-Tacotron2/pretrained/
+[2018-02-05 21:51:31.519]  
+Generated 32 batches of size 8 in 0.431 sec
+[2018-02-05 21:51:32.608]  Exiting due to exception: ConcatOp : Dimensions of inputs should match: shape[0] = [8,80] vs. shape[1] = [105,512]
+	 [[Node: model/inference/decoder/while/BasicDecoderStep/decoder/MyAttentionWrapper_AttentionWrapper/concat = ConcatV2[N=2, T=DT_FLOAT, Tidx=DT_INT32, _device="/job:localhost/replica:0/task:0/device:CPU:0"](model/inference/decoder/while/Switch_12:1, model/inference/decoder/while/Switch_7:1, model/inference/decoder/while/BasicDecoderStep/decoder/MyAttentionWrapper_AttentionWrapper/concat/axis)]]
+
+Caused by op 'model/inference/decoder/while/BasicDecoderStep/decoder/MyAttentionWrapper_AttentionWrapper/concat', defined at:
+  File "/Users/nottoday/PycharmProjects/tacotronII/train.py", line 169, in <module>
+    main()
+  File "/Users/nottoday/PycharmProjects/tacotronII/train.py", line 166, in main
+    train(log_dir, args)
+  File "/Users/nottoday/PycharmProjects/tacotronII/train.py", line 59, in train
+    model.initialize(feeder.inputs, feeder.input_lengths, feeder.mel_targets, style=True)
+  File "/Users/nottoday/PycharmProjects/tacotronII/models/tacotron2.py", line 79, in initialize
+    impute_finished=True)
+  File "/Users/nottoday/PycharmProjects/tacotronII/models/dynamic_decoder.py", line 207, in dynamic_decode
+    swap_memory=swap_memory)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/ops/control_flow_ops.py", line 2816, in while_loop
+    result = loop_context.BuildLoop(cond, body, loop_vars, shape_invariants)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/ops/control_flow_ops.py", line 2640, in BuildLoop
+    pred, body, original_loop_vars, loop_vars, shape_invariants)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/ops/control_flow_ops.py", line 2590, in _BuildLoop
+    body_result = body(*packed_vars_for_body)
+  File "/Users/nottoday/PycharmProjects/tacotronII/models/dynamic_decoder.py", line 157, in body
+    decoder_finished, stop_error) = decoder.step(time, inputs, state, error)
+  File "/Users/nottoday/PycharmProjects/tacotronII/models/custom_decoder.py", line 114, in step
+    cell_outputs, cell_state, LSTM_output = self._cell(inputs, state)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/ops/rnn_cell_impl.py", line 183, in __call__
+    return super(RNNCell, self).__call__(inputs, state)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/layers/base.py", line 575, in __call__
+    outputs = self.call(inputs, *args, **kwargs)
+  File "/Users/nottoday/PycharmProjects/tacotronII/models/LocationSensitiveAttention.py", line 199, in call
+    cell_inputs = self.cell_input_fn(inputs, state.attention)
+  File "/Users/nottoday/PycharmProjects/tacotronII/models/LocationSensitiveAttention.py", line 164, in <lambda>
+    self.cell_input_fn = (lambda inputs, attention: tf.concat([inputs, attention], -1))
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/ops/array_ops.py", line 1099, in concat
+    return gen_array_ops._concat_v2(values=values, axis=axis, name=name)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/ops/gen_array_ops.py", line 706, in _concat_v2
+    "ConcatV2", values=values, axis=axis, name=name)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 2956, in create_op
+    op_def=op_def)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1470, in __init__
+    self._traceback = self._graph._extract_stack()  # pylint: disable=protected-access
+
+InvalidArgumentError (see above for traceback): ConcatOp : Dimensions of inputs should match: shape[0] = [8,80] vs. shape[1] = [105,512]
+	 [[Node: model/inference/decoder/while/BasicDecoderStep/decoder/MyAttentionWrapper_AttentionWrapper/concat = ConcatV2[N=2, T=DT_FLOAT, Tidx=DT_INT32, _device="/job:localhost/replica:0/task:0/device:CPU:0"](model/inference/decoder/while/Switch_12:1, model/inference/decoder/while/Switch_7:1, model/inference/decoder/while/BasicDecoderStep/decoder/MyAttentionWrapper_AttentionWrapper/concat/axis)]]
+
+
+-----------------------------------------------------------------
+Starting new training run
+-----------------------------------------------------------------
+[2018-02-05 21:55:38.120]  Checkpoint path: /Users/nottoday/PycharmProjects/tacotronII/logs-Tacotron2/model.ckpt
+[2018-02-05 21:55:38.120]  Loading training data from: /Users/nottoday/PycharmProjects/tacotronII/training/train.txt
+[2018-02-05 21:55:38.120]  Using model: Tacotron2
+[2018-02-05 21:55:38.120]  Hyperparameters:
+  adam_beta1: 0.9
+  adam_beta2: 0.999
+  adam_epsilon: 1e-05
+  attention_size: 128
+  batch_size: 8
+  char_embed_size: 512
+  cleaners: english_cleaners
+  dec_prenet_sizes: [256, 256]
+  dec_rnn_size: 1024
+  decay_rate: 0.96
+  decay_start: 50000
+  drop_prob: 0.5
+  enc_3conv_sizes: [512, 512, 512]
+  enc_rnn_size: 512
+  final_lr: 0.0001
+  frame_length_ms: 50
+  frame_shift_ms: 12.5
+  initial_lr: 0.01
+  min_level_db: -100
+  num_freq: 1025
+  num_mels: 80
+  outputs_per_step: 1
+  parameter_init: 0.5
+  preemphasis: 0.97
+  ref_level_db: 20
+  reg_weight: 1e-05
+  sample_rate: 20000
+  use_cmudict: False
+  use_decay: True
+  zoneout_prob: 0.1
+[2018-02-05 21:55:38.141]  Loaded metadata for 13100 examples (23.94 hours)
+
+-----------------------------------------------------------------
+Starting new training run
+-----------------------------------------------------------------
+[2018-02-05 21:57:17.422]  Checkpoint path: /Users/nottoday/PycharmProjects/tacotronII/logs-Tacotron2/model.ckpt
+[2018-02-05 21:57:17.422]  Loading training data from: /Users/nottoday/PycharmProjects/tacotronII/training/train.txt
+[2018-02-05 21:57:17.422]  Using model: Tacotron2
+[2018-02-05 21:57:17.422]  Hyperparameters:
+  adam_beta1: 0.9
+  adam_beta2: 0.999
+  adam_epsilon: 1e-05
+  attention_size: 128
+  batch_size: 8
+  char_embed_size: 512
+  cleaners: english_cleaners
+  dec_prenet_sizes: [256, 256]
+  dec_rnn_size: 1024
+  decay_rate: 0.96
+  decay_start: 50000
+  drop_prob: 0.5
+  enc_3conv_sizes: [512, 512, 512]
+  enc_rnn_size: 512
+  final_lr: 0.0001
+  frame_length_ms: 50
+  frame_shift_ms: 12.5
+  initial_lr: 0.01
+  min_level_db: -100
+  num_freq: 1025
+  num_mels: 80
+  outputs_per_step: 1
+  parameter_init: 0.5
+  preemphasis: 0.97
+  ref_level_db: 20
+  reg_weight: 1e-05
+  sample_rate: 20000
+  use_cmudict: False
+  use_decay: True
+  zoneout_prob: 0.1
+[2018-02-05 21:57:17.438]  Loaded metadata for 13100 examples (23.94 hours)
+
+-----------------------------------------------------------------
+Starting new training run
+-----------------------------------------------------------------
+[2018-02-05 21:57:41.488]  Checkpoint path: /Users/nottoday/PycharmProjects/tacotronII/logs-Tacotron2/model.ckpt
+[2018-02-05 21:57:41.488]  Loading training data from: /Users/nottoday/PycharmProjects/tacotronII/training/train.txt
+[2018-02-05 21:57:41.488]  Using model: Tacotron2
+[2018-02-05 21:57:41.488]  Hyperparameters:
+  adam_beta1: 0.9
+  adam_beta2: 0.999
+  adam_epsilon: 1e-05
+  attention_size: 128
+  batch_size: 8
+  char_embed_size: 512
+  cleaners: english_cleaners
+  dec_prenet_sizes: [256, 256]
+  dec_rnn_size: 1024
+  decay_rate: 0.96
+  decay_start: 50000
+  drop_prob: 0.5
+  enc_3conv_sizes: [512, 512, 512]
+  enc_rnn_size: 512
+  final_lr: 0.0001
+  frame_length_ms: 50
+  frame_shift_ms: 12.5
+  initial_lr: 0.01
+  min_level_db: -100
+  num_freq: 1025
+  num_mels: 80
+  outputs_per_step: 1
+  parameter_init: 0.5
+  preemphasis: 0.97
+  ref_level_db: 20
+  reg_weight: 1e-05
+  sample_rate: 20000
+  use_cmudict: False
+  use_decay: True
+  zoneout_prob: 0.1
+[2018-02-05 21:57:41.506]  Loaded metadata for 13100 examples (23.94 hours)
+[2018-02-05 21:57:43.053]  Initialized Tacotron2 model. Dimensions: 
+[2018-02-05 21:57:43.053]    embedding:                  512
+[2018-02-05 21:57:43.053]    encoder out:                512
+[2018-02-05 21:57:43.053]    pre-net wrapped cell out:   80
+[2018-02-05 21:57:43.054]    attention wrapped cell out: 512
+[2018-02-05 21:57:43.054]    decoder out (1 frame):      80
+[2018-02-05 21:58:00.540]  No model to load at /Users/nottoday/PycharmProjects/tacotronII/logs-Tacotron2/pretrained/
+[2018-02-05 21:58:00.902]  
+Generated 32 batches of size 8 in 0.362 sec
+[2018-02-05 21:58:01.818]  Exiting due to exception: ConcatOp : Dimensions of inputs should match: shape[0] = [8,80] vs. shape[1] = [91,512]
+	 [[Node: model/inference/decoder/while/BasicDecoderStep/decoder/MyAttentionWrapper_AttentionWrapper/concat = ConcatV2[N=2, T=DT_FLOAT, Tidx=DT_INT32, _device="/job:localhost/replica:0/task:0/device:CPU:0"](model/inference/decoder/while/Switch_12:1, model/inference/decoder/while/Switch_7:1, model/inference/decoder/while/BasicDecoderStep/decoder/MyAttentionWrapper_AttentionWrapper/concat/axis)]]
+
+Caused by op 'model/inference/decoder/while/BasicDecoderStep/decoder/MyAttentionWrapper_AttentionWrapper/concat', defined at:
+  File "/Users/nottoday/PycharmProjects/tacotronII/train.py", line 169, in <module>
+    main()
+  File "/Users/nottoday/PycharmProjects/tacotronII/train.py", line 166, in main
+    train(log_dir, args)
+  File "/Users/nottoday/PycharmProjects/tacotronII/train.py", line 59, in train
+    model.initialize(feeder.inputs, feeder.input_lengths, feeder.mel_targets, style=True)
+  File "/Users/nottoday/PycharmProjects/tacotronII/models/tacotron2.py", line 79, in initialize
+    impute_finished=False)
+  File "/Users/nottoday/PycharmProjects/tacotronII/models/dynamic_decoder.py", line 207, in dynamic_decode
+    swap_memory=swap_memory)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/ops/control_flow_ops.py", line 2816, in while_loop
+    result = loop_context.BuildLoop(cond, body, loop_vars, shape_invariants)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/ops/control_flow_ops.py", line 2640, in BuildLoop
+    pred, body, original_loop_vars, loop_vars, shape_invariants)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/ops/control_flow_ops.py", line 2590, in _BuildLoop
+    body_result = body(*packed_vars_for_body)
+  File "/Users/nottoday/PycharmProjects/tacotronII/models/dynamic_decoder.py", line 157, in body
+    decoder_finished, stop_error) = decoder.step(time, inputs, state, error)
+  File "/Users/nottoday/PycharmProjects/tacotronII/models/custom_decoder.py", line 114, in step
+    cell_outputs, cell_state, LSTM_output = self._cell(inputs, state)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/ops/rnn_cell_impl.py", line 183, in __call__
+    return super(RNNCell, self).__call__(inputs, state)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/layers/base.py", line 575, in __call__
+    outputs = self.call(inputs, *args, **kwargs)
+  File "/Users/nottoday/PycharmProjects/tacotronII/models/LocationSensitiveAttention.py", line 199, in call
+    cell_inputs = self.cell_input_fn(inputs, state.attention)
+  File "/Users/nottoday/PycharmProjects/tacotronII/models/LocationSensitiveAttention.py", line 164, in <lambda>
+    self.cell_input_fn = (lambda inputs, attention: tf.concat([inputs, attention], -1))
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/ops/array_ops.py", line 1099, in concat
+    return gen_array_ops._concat_v2(values=values, axis=axis, name=name)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/ops/gen_array_ops.py", line 706, in _concat_v2
+    "ConcatV2", values=values, axis=axis, name=name)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 2956, in create_op
+    op_def=op_def)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1470, in __init__
+    self._traceback = self._graph._extract_stack()  # pylint: disable=protected-access
+
+InvalidArgumentError (see above for traceback): ConcatOp : Dimensions of inputs should match: shape[0] = [8,80] vs. shape[1] = [91,512]
+	 [[Node: model/inference/decoder/while/BasicDecoderStep/decoder/MyAttentionWrapper_AttentionWrapper/concat = ConcatV2[N=2, T=DT_FLOAT, Tidx=DT_INT32, _device="/job:localhost/replica:0/task:0/device:CPU:0"](model/inference/decoder/while/Switch_12:1, model/inference/decoder/while/Switch_7:1, model/inference/decoder/while/BasicDecoderStep/decoder/MyAttentionWrapper_AttentionWrapper/concat/axis)]]
+
+
+-----------------------------------------------------------------
+Starting new training run
+-----------------------------------------------------------------
+[2018-02-05 21:59:57.653]  Checkpoint path: /Users/nottoday/PycharmProjects/tacotronII/logs-Tacotron2/model.ckpt
+[2018-02-05 21:59:57.653]  Loading training data from: /Users/nottoday/PycharmProjects/tacotronII/training/train.txt
+[2018-02-05 21:59:57.653]  Using model: Tacotron2
+[2018-02-05 21:59:57.653]  Hyperparameters:
+  adam_beta1: 0.9
+  adam_beta2: 0.999
+  adam_epsilon: 1e-05
+  attention_size: 128
+  batch_size: 8
+  char_embed_size: 512
+  cleaners: english_cleaners
+  dec_prenet_sizes: [256, 256]
+  dec_rnn_size: 1024
+  decay_rate: 0.96
+  decay_start: 50000
+  drop_prob: 0.5
+  enc_3conv_sizes: [512, 512, 512]
+  enc_rnn_size: 512
+  final_lr: 0.0001
+  frame_length_ms: 50
+  frame_shift_ms: 12.5
+  initial_lr: 0.01
+  min_level_db: -100
+  num_freq: 1025
+  num_mels: 80
+  outputs_per_step: 1
+  parameter_init: 0.5
+  preemphasis: 0.97
+  ref_level_db: 20
+  reg_weight: 1e-05
+  sample_rate: 20000
+  use_cmudict: False
+  use_decay: True
+  zoneout_prob: 0.1
+[2018-02-05 21:59:57.674]  Loaded metadata for 13100 examples (23.94 hours)
+[2018-02-05 21:59:59.254]  Initialized Tacotron2 model. Dimensions: 
+[2018-02-05 21:59:59.254]    embedding:                  512
+[2018-02-05 21:59:59.254]    encoder out:                512
+[2018-02-05 21:59:59.254]    pre-net wrapped cell out:   80
+[2018-02-05 21:59:59.254]    attention wrapped cell out: 512
+[2018-02-05 21:59:59.254]    decoder out (1 frame):      80
+[2018-02-05 22:00:17.174]  No model to load at /Users/nottoday/PycharmProjects/tacotronII/logs-Tacotron2/pretrained/
+[2018-02-05 22:00:17.310]  
+Generated 32 batches of size 8 in 0.136 sec
+[2018-02-05 22:00:18.805]  Exiting due to exception: ConcatOp : Dimensions of inputs should match: shape[0] = [8,80] vs. shape[1] = [169,512]
+	 [[Node: model/inference/decoder/while/BasicDecoderStep/decoder/MyAttentionWrapper_AttentionWrapper/concat = ConcatV2[N=2, T=DT_FLOAT, Tidx=DT_INT32, _device="/job:localhost/replica:0/task:0/device:CPU:0"](model/inference/decoder/while/Switch_12:1, model/inference/decoder/while/Switch_7:1, model/inference/decoder/while/BasicDecoderStep/decoder/MyAttentionWrapper_AttentionWrapper/concat/axis)]]
+
+Caused by op 'model/inference/decoder/while/BasicDecoderStep/decoder/MyAttentionWrapper_AttentionWrapper/concat', defined at:
+  File "/Users/nottoday/PycharmProjects/tacotronII/train.py", line 169, in <module>
+    main()
+  File "/Users/nottoday/PycharmProjects/tacotronII/train.py", line 166, in main
+    train(log_dir, args)
+  File "/Users/nottoday/PycharmProjects/tacotronII/train.py", line 59, in train
+    model.initialize(feeder.inputs, feeder.input_lengths, feeder.mel_targets, style=True)
+  File "/Users/nottoday/PycharmProjects/tacotronII/models/tacotron2.py", line 79, in initialize
+    impute_finished=True)
+  File "/Users/nottoday/PycharmProjects/tacotronII/models/dynamic_decoder.py", line 207, in dynamic_decode
+    swap_memory=swap_memory)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/ops/control_flow_ops.py", line 2816, in while_loop
+    result = loop_context.BuildLoop(cond, body, loop_vars, shape_invariants)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/ops/control_flow_ops.py", line 2640, in BuildLoop
+    pred, body, original_loop_vars, loop_vars, shape_invariants)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/ops/control_flow_ops.py", line 2590, in _BuildLoop
+    body_result = body(*packed_vars_for_body)
+  File "/Users/nottoday/PycharmProjects/tacotronII/models/dynamic_decoder.py", line 157, in body
+    decoder_finished, stop_error) = decoder.step(time, inputs, state, error)
+  File "/Users/nottoday/PycharmProjects/tacotronII/models/custom_decoder.py", line 114, in step
+    cell_outputs, cell_state, LSTM_output = self._cell(inputs, state)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/ops/rnn_cell_impl.py", line 183, in __call__
+    return super(RNNCell, self).__call__(inputs, state)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/layers/base.py", line 575, in __call__
+    outputs = self.call(inputs, *args, **kwargs)
+  File "/Users/nottoday/PycharmProjects/tacotronII/models/LocationSensitiveAttention.py", line 200, in call
+    cell_inputs = self.cell_input_fn(inputs, state.attention)
+  File "/Users/nottoday/PycharmProjects/tacotronII/models/LocationSensitiveAttention.py", line 165, in <lambda>
+    self.cell_input_fn = (lambda inputs, attention: tf.concat([inputs, attention], -1))
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/ops/array_ops.py", line 1099, in concat
+    return gen_array_ops._concat_v2(values=values, axis=axis, name=name)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/ops/gen_array_ops.py", line 706, in _concat_v2
+    "ConcatV2", values=values, axis=axis, name=name)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 2956, in create_op
+    op_def=op_def)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1470, in __init__
+    self._traceback = self._graph._extract_stack()  # pylint: disable=protected-access
+
+InvalidArgumentError (see above for traceback): ConcatOp : Dimensions of inputs should match: shape[0] = [8,80] vs. shape[1] = [169,512]
+	 [[Node: model/inference/decoder/while/BasicDecoderStep/decoder/MyAttentionWrapper_AttentionWrapper/concat = ConcatV2[N=2, T=DT_FLOAT, Tidx=DT_INT32, _device="/job:localhost/replica:0/task:0/device:CPU:0"](model/inference/decoder/while/Switch_12:1, model/inference/decoder/while/Switch_7:1, model/inference/decoder/while/BasicDecoderStep/decoder/MyAttentionWrapper_AttentionWrapper/concat/axis)]]
+
+
+-----------------------------------------------------------------
+Starting new training run
+-----------------------------------------------------------------
+[2018-02-05 22:03:33.869]  Checkpoint path: /Users/nottoday/PycharmProjects/tacotronII/logs-Tacotron2/model.ckpt
+[2018-02-05 22:03:33.869]  Loading training data from: /Users/nottoday/PycharmProjects/tacotronII/training/train.txt
+[2018-02-05 22:03:33.869]  Using model: Tacotron2
+[2018-02-05 22:03:33.869]  Hyperparameters:
+  adam_beta1: 0.9
+  adam_beta2: 0.999
+  adam_epsilon: 1e-05
+  attention_size: 128
+  batch_size: 8
+  char_embed_size: 512
+  cleaners: english_cleaners
+  dec_prenet_sizes: [256, 256]
+  dec_rnn_size: 1024
+  decay_rate: 0.96
+  decay_start: 50000
+  drop_prob: 0.5
+  enc_3conv_sizes: [512, 512, 512]
+  enc_rnn_size: 512
+  final_lr: 0.0001
+  frame_length_ms: 50
+  frame_shift_ms: 12.5
+  initial_lr: 0.01
+  min_level_db: -100
+  num_freq: 1025
+  num_mels: 80
+  outputs_per_step: 1
+  parameter_init: 0.5
+  preemphasis: 0.97
+  ref_level_db: 20
+  reg_weight: 1e-05
+  sample_rate: 20000
+  use_cmudict: False
+  use_decay: True
+  zoneout_prob: 0.1
+[2018-02-05 22:03:33.885]  Loaded metadata for 13100 examples (23.94 hours)
+[2018-02-05 22:03:35.464]  Initialized Tacotron2 model. Dimensions: 
+[2018-02-05 22:03:35.465]    embedding:                  512
+[2018-02-05 22:03:35.465]    encoder out:                512
+[2018-02-05 22:03:35.465]    pre-net wrapped cell out:   80
+[2018-02-05 22:03:35.465]    attention wrapped cell out: 80
+[2018-02-05 22:03:35.465]    decoder out (1 frame):      80
+[2018-02-05 22:03:53.318]  No model to load at /Users/nottoday/PycharmProjects/tacotronII/logs-Tacotron2/pretrained/
+[2018-02-05 22:03:53.744]  
+Generated 32 batches of size 8 in 0.426 sec
+[2018-02-05 22:03:54.774]  Exiting due to exception: ConcatOp : Dimensions of inputs should match: shape[0] = [8,80] vs. shape[1] = [111,512]
+	 [[Node: model/inference/decoder/while/BasicDecoderStep/decoder/MyAttentionWrapper_AttentionWrapper/concat = ConcatV2[N=2, T=DT_FLOAT, Tidx=DT_INT32, _device="/job:localhost/replica:0/task:0/device:CPU:0"](model/inference/decoder/while/Switch_12:1, model/inference/decoder/while/Switch_7:1, model/inference/decoder/while/BasicDecoderStep/decoder/MyAttentionWrapper_AttentionWrapper/concat/axis)]]
+
+Caused by op 'model/inference/decoder/while/BasicDecoderStep/decoder/MyAttentionWrapper_AttentionWrapper/concat', defined at:
+  File "/Users/nottoday/PycharmProjects/tacotronII/train.py", line 169, in <module>
+    main()
+  File "/Users/nottoday/PycharmProjects/tacotronII/train.py", line 166, in main
+    train(log_dir, args)
+  File "/Users/nottoday/PycharmProjects/tacotronII/train.py", line 59, in train
+    model.initialize(feeder.inputs, feeder.input_lengths, feeder.mel_targets, style=True)
+  File "/Users/nottoday/PycharmProjects/tacotronII/models/tacotron2.py", line 79, in initialize
+    impute_finished=True)
+  File "/Users/nottoday/PycharmProjects/tacotronII/models/dynamic_decoder.py", line 207, in dynamic_decode
+    swap_memory=swap_memory)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/ops/control_flow_ops.py", line 2816, in while_loop
+    result = loop_context.BuildLoop(cond, body, loop_vars, shape_invariants)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/ops/control_flow_ops.py", line 2640, in BuildLoop
+    pred, body, original_loop_vars, loop_vars, shape_invariants)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/ops/control_flow_ops.py", line 2590, in _BuildLoop
+    body_result = body(*packed_vars_for_body)
+  File "/Users/nottoday/PycharmProjects/tacotronII/models/dynamic_decoder.py", line 157, in body
+    decoder_finished, stop_error) = decoder.step(time, inputs, state, error)
+  File "/Users/nottoday/PycharmProjects/tacotronII/models/custom_decoder.py", line 114, in step
+    cell_outputs, cell_state, LSTM_output = self._cell(inputs, state)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/ops/rnn_cell_impl.py", line 183, in __call__
+    return super(RNNCell, self).__call__(inputs, state)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/layers/base.py", line 575, in __call__
+    outputs = self.call(inputs, *args, **kwargs)
+  File "/Users/nottoday/PycharmProjects/tacotronII/models/LocationSensitiveAttention.py", line 196, in call
+    cell_inputs = self.cell_input_fn(inputs, state.attention)
+  File "/Users/nottoday/PycharmProjects/tacotronII/models/LocationSensitiveAttention.py", line 161, in <lambda>
+    self.cell_input_fn = (lambda inputs, attention: tf.concat([inputs, attention], -1))
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/ops/array_ops.py", line 1099, in concat
+    return gen_array_ops._concat_v2(values=values, axis=axis, name=name)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/ops/gen_array_ops.py", line 706, in _concat_v2
+    "ConcatV2", values=values, axis=axis, name=name)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 2956, in create_op
+    op_def=op_def)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1470, in __init__
+    self._traceback = self._graph._extract_stack()  # pylint: disable=protected-access
+
+InvalidArgumentError (see above for traceback): ConcatOp : Dimensions of inputs should match: shape[0] = [8,80] vs. shape[1] = [111,512]
+	 [[Node: model/inference/decoder/while/BasicDecoderStep/decoder/MyAttentionWrapper_AttentionWrapper/concat = ConcatV2[N=2, T=DT_FLOAT, Tidx=DT_INT32, _device="/job:localhost/replica:0/task:0/device:CPU:0"](model/inference/decoder/while/Switch_12:1, model/inference/decoder/while/Switch_7:1, model/inference/decoder/while/BasicDecoderStep/decoder/MyAttentionWrapper_AttentionWrapper/concat/axis)]]
+
+
+-----------------------------------------------------------------
+Starting new training run
+-----------------------------------------------------------------
+[2018-02-05 22:10:52.578]  Checkpoint path: /Users/nottoday/PycharmProjects/tacotronII/logs-Tacotron2/model.ckpt
+[2018-02-05 22:10:52.578]  Loading training data from: /Users/nottoday/PycharmProjects/tacotronII/training/train.txt
+[2018-02-05 22:10:52.578]  Using model: Tacotron2
+[2018-02-05 22:10:52.579]  Hyperparameters:
+  adam_beta1: 0.9
+  adam_beta2: 0.999
+  adam_epsilon: 1e-05
+  attention_size: 128
+  batch_size: 8
+  char_embed_size: 512
+  cleaners: english_cleaners
+  dec_prenet_sizes: [256, 256]
+  dec_rnn_size: 1024
+  decay_rate: 0.96
+  decay_start: 50000
+  drop_prob: 0.5
+  enc_3conv_sizes: [512, 512, 512]
+  enc_rnn_size: 512
+  final_lr: 0.0001
+  frame_length_ms: 50
+  frame_shift_ms: 12.5
+  initial_lr: 0.01
+  min_level_db: -100
+  num_freq: 1025
+  num_mels: 80
+  outputs_per_step: 1
+  parameter_init: 0.5
+  preemphasis: 0.97
+  ref_level_db: 20
+  reg_weight: 1e-05
+  sample_rate: 20000
+  use_cmudict: False
+  use_decay: True
+  zoneout_prob: 0.1
+[2018-02-05 22:10:52.599]  Loaded metadata for 13100 examples (23.94 hours)
+[2018-02-05 22:10:54.218]  Initialized Tacotron2 model. Dimensions: 
+[2018-02-05 22:10:54.218]    embedding:                  512
+[2018-02-05 22:10:54.218]    encoder out:                512
+[2018-02-05 22:10:54.218]    pre-net wrapped cell out:   80
+[2018-02-05 22:10:54.218]    attention wrapped cell out: 80
+[2018-02-05 22:10:54.218]    decoder out (1 frame):      80
+[2018-02-05 22:11:12.346]  No model to load at /Users/nottoday/PycharmProjects/tacotronII/logs-Tacotron2/pretrained/
+[2018-02-05 22:11:12.565]  
+Generated 32 batches of size 8 in 0.219 sec
+[2018-02-05 22:11:13.545]  Exiting due to exception: ConcatOp : Dimensions of inputs should match: shape[0] = [8,80] vs. shape[1] = [57,512]
+	 [[Node: model/inference/decoder/while/BasicDecoderStep/decoder/MyAttentionWrapper_AttentionWrapper/concat = ConcatV2[N=2, T=DT_FLOAT, Tidx=DT_INT32, _device="/job:localhost/replica:0/task:0/device:CPU:0"](model/inference/decoder/while/Switch_12:1, model/inference/decoder/while/Switch_7:1, model/inference/decoder/while/BasicDecoderStep/decoder/MyAttentionWrapper_AttentionWrapper/concat/axis)]]
+
+Caused by op 'model/inference/decoder/while/BasicDecoderStep/decoder/MyAttentionWrapper_AttentionWrapper/concat', defined at:
+  File "/Users/nottoday/PycharmProjects/tacotronII/train.py", line 169, in <module>
+    main()
+  File "/Users/nottoday/PycharmProjects/tacotronII/train.py", line 166, in main
+    train(log_dir, args)
+  File "/Users/nottoday/PycharmProjects/tacotronII/train.py", line 59, in train
+    model.initialize(feeder.inputs, feeder.input_lengths, feeder.mel_targets, style=True)
+  File "/Users/nottoday/PycharmProjects/tacotronII/models/tacotron2.py", line 79, in initialize
+    impute_finished=True)
+  File "/Users/nottoday/PycharmProjects/tacotronII/models/dynamic_decoder.py", line 207, in dynamic_decode
+    swap_memory=swap_memory)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/ops/control_flow_ops.py", line 2816, in while_loop
+    result = loop_context.BuildLoop(cond, body, loop_vars, shape_invariants)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/ops/control_flow_ops.py", line 2640, in BuildLoop
+    pred, body, original_loop_vars, loop_vars, shape_invariants)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/ops/control_flow_ops.py", line 2590, in _BuildLoop
+    body_result = body(*packed_vars_for_body)
+  File "/Users/nottoday/PycharmProjects/tacotronII/models/dynamic_decoder.py", line 157, in body
+    decoder_finished, stop_error) = decoder.step(time, inputs, state, error)
+  File "/Users/nottoday/PycharmProjects/tacotronII/models/custom_decoder.py", line 114, in step
+    cell_outputs, cell_state, LSTM_output = self._cell(inputs, state)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/ops/rnn_cell_impl.py", line 183, in __call__
+    return super(RNNCell, self).__call__(inputs, state)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/layers/base.py", line 575, in __call__
+    outputs = self.call(inputs, *args, **kwargs)
+  File "/Users/nottoday/PycharmProjects/tacotronII/models/LocationSensitiveAttention.py", line 196, in call
+    cell_inputs = self.cell_input_fn(inputs, state.attention)
+  File "/Users/nottoday/PycharmProjects/tacotronII/models/LocationSensitiveAttention.py", line 161, in <lambda>
+    self.cell_input_fn = (lambda inputs, attention: tf.concat([inputs, attention], -1))
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/ops/array_ops.py", line 1099, in concat
+    return gen_array_ops._concat_v2(values=values, axis=axis, name=name)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/ops/gen_array_ops.py", line 706, in _concat_v2
+    "ConcatV2", values=values, axis=axis, name=name)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 2956, in create_op
+    op_def=op_def)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1470, in __init__
+    self._traceback = self._graph._extract_stack()  # pylint: disable=protected-access
+
+InvalidArgumentError (see above for traceback): ConcatOp : Dimensions of inputs should match: shape[0] = [8,80] vs. shape[1] = [57,512]
+	 [[Node: model/inference/decoder/while/BasicDecoderStep/decoder/MyAttentionWrapper_AttentionWrapper/concat = ConcatV2[N=2, T=DT_FLOAT, Tidx=DT_INT32, _device="/job:localhost/replica:0/task:0/device:CPU:0"](model/inference/decoder/while/Switch_12:1, model/inference/decoder/while/Switch_7:1, model/inference/decoder/while/BasicDecoderStep/decoder/MyAttentionWrapper_AttentionWrapper/concat/axis)]]
+
