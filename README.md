@@ -38,7 +38,7 @@ So there are 6 steps
 
  "The prediction from the previous time step is first passed through a small "pre-net" contatining 2 fully connected layers of 256 hidden ReLU units."
 
-		inputs = dec_prenet(inputs, hp.dec_prenet_sizes, scope='decoder_prenet_layer')
+    inputs = dec_prenet(inputs, hp.dec_prenet_sizes, scope='decoder_prenet_layer')
 - Step 2: Mix the `inputs` and previous step's `attention` output via `cell_input_fn`.
 
  "The pre-net output and attention context vector are concatenated and ..."
