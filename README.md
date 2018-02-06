@@ -31,7 +31,7 @@ Calculate the score using (processed-memory, query, alignments)
 
 > attention_wrapper.py
 
-When create 'MyAttentionWrapper', using just RNNcells not some 'pre-net wrapper'.
+When create 'MyAttentionWrapper', using just LSTMs. No 'pre-net wrapper'.
 
 So there are 6 steps
 - Step 1: Passed through a 'Pre-net'.
