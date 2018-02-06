@@ -499,12 +499,13 @@ class MyAttentionWrapper(rnn_cell_impl.RNNCell):
     def call(self, inputs, state):
         """Perform a step of attention-wrapped RNN.
 
-        - Step 1: Mix the `inputs` and previous step's `attention` output via
+	- Step 1: Passed through a 'Pre-net'
+        - Step 2: Mix the `inputs` and previous step's `attention` output via
             `cell_input_fn`.
-        - Step 2: Call the wrapped `cell` with this input and its previous state.
-        - Step 3: Concat 'LSTM_output' with 'context_vector(attention)'
-        - Step 4: Concatted output projected through linear-transform.
-        - Step 5: Calculate the score, alignments and attention..
+        - Step 3: Call the wrapped `cell` with this input and its previous state.
+        - Step 4: Concat 'LSTM_output' with 'context_vector(attention)'
+        - Step 5: Concatted output projected through linear-transform.
+        - Step 6: Calculate the score, alignments and attention.
 
         Args:
             inputs: (Possibly nested tuple of) Tensor, the input at this time step.
@@ -522,18 +523,18 @@ class MyAttentionWrapper(rnn_cell_impl.RNNCell):
             raise TypeError("Expected state to be instance of AttentionWrapperState. "
                                             "Received type %s instead."  % type(state))
 
-        # Decoder pre-net
+        # Step 1: Decoder pre-net
         inputs = dec_prenet(inputs, hp.dec_prenet_sizes, scope='decoder_prenet_layer')
 
-        # Step 1: Calculate the true inputs to the cell based on the previous attention value.
+        # Step 2: Calculate the true inputs to the cell based on the previous attention value.
         cell_inputs = self._cell_input_fn(inputs, state.attention)
-        # Step 2: Call the wrapped `cell`
+        # Step 3: Call the wrapped `cell`
         LSTM_output, next_cell_state = self._cell(cell_inputs, state.cell_state)
 
-        # Step 3: Concat LSTM output and context vector
+        # Step 4: Concat LSTM output and context vector
         concat_output_LSTM = tf.concat([LSTM_output, state.attention], axis=-1)
 
-        # Step 4: Linear projection
+        # Step 5: Linear projection
         cell_output = projection(concat_output_LSTM, hp.num_mels, scope='decoder_projection_layer')
 
         cell_batch_size = (
@@ -561,7 +562,7 @@ class MyAttentionWrapper(rnn_cell_impl.RNNCell):
         all_attentions = []
         all_histories = []
 
-        # Step 5: Calculate the attention and alignments
+        # Step 6: Calculate the attention and alignments
         for i, attention_mechanism in enumerate(self._attention_mechanisms):
             attention, alignments = _compute_attention(
                     attention_mechanism, cell_output, previous_alignments[i],
