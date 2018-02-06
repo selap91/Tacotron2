@@ -18,7 +18,7 @@ An implementation of Tacotron2 (excluding WaveNet-vocoder) in TensorFlow.
 
 > .tacotron2-18.02.06
 
-# Attentions:
+## Attentions:
 > .tacotron2-18.02.06. attentions.py
 
 There are two styles of attention-mechanism. (1.LocationBasedAttention, 2.HybridAttention)
@@ -35,11 +35,11 @@ Calculate the score using (processed-memory, query, alignments)
 
     score = tf.reduce_sum(self.v * tf.tanh(self.keys + processed_query + location_f), [2])
 		
-# MyAttentionWrapper:
+## MyAttentionWrapper:
 
 > .tacotron2-18.02.06. attention_wrapper.py
 
-When create 'MyAttentionWrapper', using just LSTMs. No such 'pre-net wrapper'.
+Wrapping attention with LSTMs directly, not with such a 'prenet wrapper'.
 
 So there are 6 steps
 - Step 1: Passed through a 'Pre-net'.
