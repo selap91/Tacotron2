@@ -8,10 +8,10 @@ An implementation of Tacotron2 (excluding WaveNet-vocoder) in TensorFlow.
 
 2018-02-05 incompleted,
 
-2018-02-06 complete !!
+2018-02-06 complete !
 
 # Attentions:
-> .models attentions.py
+> attentions.py
 
 There are two styles of attention-mechanism. (1.LocationBasedAttention, 2.HybridAttention)
 
@@ -29,7 +29,7 @@ Calculate the score using (processed-memory, query, alignments)
 		
 # MyAttentionWrapper:
 
-> .models attention_wrapper.py
+> attention_wrapper.py
 
 When create 'MyAttentionWrapper', using just RNNcells not some 'pre-net wrapper'.
 
@@ -52,4 +52,4 @@ So there are 6 steps
 - Step 6: Calculate the score, alignments and attention.
 
 # 
-So many reference from https://github.com/Rayhane-mamah/Tacotron-2
+So many references from https://github.com/Rayhane-mamah/Tacotron-2
