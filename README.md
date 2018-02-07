@@ -4,7 +4,7 @@ An implementation of Tacotron2 (excluding WaveNet-vocoder) in TensorFlow.
 
 2018-01-30 incompleted,
 
-> .models / .utils / hparams.py / train.py
+> .models , .utils , hparams.py , train.py
 
 2018-02-04 incompleted,
 
@@ -19,7 +19,7 @@ An implementation of Tacotron2 (excluding WaveNet-vocoder) in TensorFlow.
 > .tacotron2-18.02.06
 
 ## Attentions:
-> .tacotron2-18.02.06. attentions.py
+> /tacotron2-18.02.06/attentions.py
 
 There are two styles of attention-mechanism. (1.LocationBasedAttention, 2.HybridAttention)
 
@@ -37,7 +37,7 @@ Calculate the score using (processed-memory, query, alignments)
 		
 ## MyAttentionWrapper:
 
-> .tacotron2-18.02.06. attention_wrapper.py
+> /tacotron2-18.02.06/attention_wrapper.py
 
 Wrapping attention with LSTMs directly, not with such a 'prenet wrapper'.
 
